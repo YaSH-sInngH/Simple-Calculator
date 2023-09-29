@@ -3,36 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.js"></script>
 </head>
 <body>
-
-    <div class="flex">
-        <h1>CALCULATOR</h1>
+    <div class="scientific-calc">
+        <h1>Scientific Calculator</h1>
         <div class="container-grid">
             <input type="text" class="js-input">
-            <button class="button" id="clear">C</button>
+            <button class="button">sin</button>
+            <button class="button">cos</button>
+            <button class="button">tan</button>
+            <button class="button">asin</button>
+            <button class="button">acos</button>
+            <button class="button">atan</button>
+            <button class="button">π</button>
+            <button class="button">ln</button>
+            <button class="button">log</button>
             <button class="button">%</button>
-            <button class="button"> / </button>
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button"> + </button>
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button"> - </button>
+            <button class="button">sqrt</button>
+            <button class="button">cube</button>
+            <button class="button">sqr</button>
+            <button class="button">(</button>
+            <button class="button">)</button>
             <button class="button">7</button>
             <button class="button">8</button>
             <button class="button">9</button>
-            <button class="button"> * </button>
+            <button class="button" id="delete">Del</button>
+            <button class="button" id="clear">C</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">*</button>
+            <button class="button">/</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+            <button class="button">-</button>
             <button class="button">0</button>
             <button class="button">.</button>
-            <button class="button" id="equal-to">=</button>
+            <button class="button">e</button>
+            <button class="button" id="equals-to">Enter</button>
         </div>
     </div>
+    <p>
+        <h2>Important</h2>
+        <li>To solve <span>" sin , cos , tan , sqrt , cube , log , ln , π , sqr , e "</span> first write the number and then click the button.</li>
+    </p>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
-</html> 
+</html>
